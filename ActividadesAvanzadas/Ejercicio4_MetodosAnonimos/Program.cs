@@ -64,10 +64,6 @@ namespace EjerciciosDelegados
     }
     delegate bool FiltroVehiculo(Vehiculo v);
 
-    // ==========================================
-    // RESOLUCIÓN INDEPENDIENTE DE CADA EJERCICIO
-    // ==========================================
-
     class Ejercicio1
     {
         public static void Ejecutar()
