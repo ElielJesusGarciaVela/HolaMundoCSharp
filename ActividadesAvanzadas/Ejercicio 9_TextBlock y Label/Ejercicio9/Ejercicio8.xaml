@@ -1,0 +1,21 @@
+﻿<Window x:Class="Ejercicio9.Ejercicio8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Margin="20" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Center">
+            <Span Foreground="Blue">
+                Este es un <Run Foreground="Red">ejemplo</Run> de cómo <Run Foreground="Green" FontWeight="Bold">Span</Run> permite
+                <LineBreak />
+                incluir diferentes elementos, como un 
+                <Hyperlink NavigateUri="https://google.com" RequestNavigate="Hyperlink_RequestNavigate">enlace</Hyperlink>.
+            </Span>
+            <LineBreak />
+            <Run Foreground="Purple" FontStyle="Italic">Run</Run> solo aplica estilos a su propio texto.
+        </TextBlock>
+    </Grid>
+</Window>
