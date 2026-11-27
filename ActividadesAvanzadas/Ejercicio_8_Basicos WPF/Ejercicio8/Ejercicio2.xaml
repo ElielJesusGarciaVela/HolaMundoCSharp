@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Ejercicio8"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <WrapPanel Orientation="Horizontal">
+        <Button Content="Botón 1" />
+        <Button Content="Botón 2" />
+        <Button Content="Botón 3" />
+        <Button Content="Botón 4" />
+        <Button Content="Botón 5" />
+    </WrapPanel>
 </Window>

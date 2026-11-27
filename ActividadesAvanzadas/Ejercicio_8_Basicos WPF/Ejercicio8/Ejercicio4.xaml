@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button Content="Haz clic aquí"
+                Width="120"
+                Height="35"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Click="Button_Click" />
     </Grid>
 </Window>

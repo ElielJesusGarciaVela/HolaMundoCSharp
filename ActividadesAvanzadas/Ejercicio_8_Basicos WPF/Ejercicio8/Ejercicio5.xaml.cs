@@ -20,5 +20,19 @@ namespace Ejercicio8
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Evento Button.Click - Un evento de acción directa");
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show("Evento MouseEnter - Detecta cuando el ratón entra en el botón");
+        }
+
+        private void Button_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Evento Button_MouseRightButtonDown - Un evento de clic específico con el botón derecho");
+        }
     }
 }

@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <WrapPanel Orientation="Horizontal"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+            <Button Content="Click Event"
+                    Padding="15,10"
+                    Click="Button_Click" />
+            <Button Content="Mouse Enter"
+                    Padding="15,10"
+                    MouseEnter="Button_MouseEnter" />
+            <Button Content="Left Click Event"
+                    Padding="15,10"
+                    MouseRightButtonDown="Button_MouseRightButtonDown" />
+        </WrapPanel>
     </Grid>
 </Window>

@@ -20,5 +20,14 @@ namespace Ejercicio8
         {
             InitializeComponent();
         }
+        private void BtnMostrarMensaje_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("¡Has hecho clic en el botón!", "Aviso");
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
